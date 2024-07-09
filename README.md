@@ -1,6 +1,6 @@
-## Django Point of Sale (POS) 💸
+## Django Point of Sale (POS) suited for Agrovet 💸
 
-A Point of Sale web app for businesses built with Python and Django for learning purposes.
+A Point of Sale web app for Agrovet built with Python and Django.
 
 <a><img src="https://user-images.githubusercontent.com/95726794/212497770-a3e241e7-0c77-4573-9d22-8f0ae813e958.png" width="70%" heigth="70%"></a>
 <br></br>
@@ -127,21 +127,11 @@ After restarting your computer
 9. Log In with your superuser credentials.
     
 
-## Contributing
 
-Contributions are always welcome!
-
-- Fork this repository;
-
-- Create a branch with your feature: `git checkout -b my-feature`;
-
-- Commit your changes: `git commit -m "feat: my new feature"`;
-
-- Push to your branch: `git push origin my-feature`.
 
 ## Authors
 
-- [@betofleitass](https://www.github.com/betofleitass)
+- [@Theuri Joseph](https://www.github.com/codetheuri)
 
 ##  License
 
