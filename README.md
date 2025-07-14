@@ -5,15 +5,12 @@ A Point of Sale web app for Agrovet built with Python and Django.
 
 ## Table of Contents:
 - [Features](#features)
-- [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Run it locally](#run-it-locally)
-- [Contributing](#contributing)
 - [License](#license)
 
-## Screenshots
-[Click Here](screenshots/README.md)
+
 
 ## Features
 - Login Page with User authentication
@@ -34,7 +31,7 @@ A Point of Sale web app for Agrovet built with Python and Django.
 ### Prerequisites
 - [Python 3.x](https://www.python.org/downloads/)
 - [pip package manager](https://pip.pypa.io/en/stable/installation/)
-- [git](https://git-scm.com/downloads)
+
   
 #### Browser Compatibility Notice: Firefox NOT Supported ‼
 #### Please Use Chrome or Edge Browsers ‼
@@ -67,26 +64,7 @@ A Point of Sale web app for Agrovet built with Python and Django.
   5.  Update pip and setuptools  
   ` python -m pip install --upgrade pip setuptools`  
   
-  6. Install GTK to create the PDF files:  
-   [Official documentation](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#installation)
-  
-  7. Windows Users (IMPORTANT)‼:
-
-     Only Windows 11 64-bit is supported ‼
-
-     After installing GTK, you need to add it to your system's Path environment variable. Follow these steps:
-
-      - Assuming you installed GTK at:
-        `C:\Program Files\GTK3-Runtime Win64\bin`  
-        This will be your new variable that you need to add to Path
-        
-      - Refer to this tutorial for detailed instructions on adding to the Path environment variable:
-        [Tutorial add to the Path enviroment variable](https://helpdeskgeek.com/windows-10/add-windows-path-environment-variable/)  
-    
-      - If you encounter an error such as "cannot load library," refer to this documentation for troubleshooting:
-        [Missing Library Error](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html#missing-library)  
-  
-  9. Restart your computer: After completing the steps above, it is essential to restart your computer for the changes to take effect properly. ‼
+ 
   
 ## Run it locally
 After restarting your computer
@@ -95,10 +73,6 @@ After restarting your computer
 
 2. Activate the virtual enviroment
 
-    PowerShell:
-    ```
-     venv\Scripts\Activate.ps1
-    ```
     
     Linux:
     ```
