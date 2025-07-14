@@ -1,111 +1,142 @@
-## Django Point of Sale (POS) suited for Agrovet 💸
+# Django Point of Sale (POS) for Agrovet 💸
 
-A Point of Sale web app for Agrovet built with Python and Django.
+A simple, clean, and extendable Point of Sale web application built with Python and Django — tailored specifically for Agrovet shops in Kenya and beyond.
 
+Includes **M-Pesa payment integration** using the **Safaricom Daraja sandbox API**.
 
-## Table of Contents:
+---
+
+## Table of Contents
+
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
-- [Run it locally](#run-it-locally)
-- [License](#license)
+- [Run It Locally](#run-it-locally)
+- [Author](#author)
 
 
+---
 
 ## Features
-- Login Page with User authentication
-- Dashboard Page with statistics and graphs
-- DataTables with print, copy, to CSV, and to PDF buttons
-- Categories and Products Management
-- Clients Management
-- Sales Management
 
+- 🔐 User authentication (login/logout)
+- 📊 Dashboard with charts and stats
+- 📋 DataTables with export (PDF, CSV, Print, Copy)
+- 📦 Product & Category Management
+- 👥 Client Management
+- 🧾 Sales Recording
+- 💰 M-Pesa Payment (Sandbox Integration)
+- 🖥️ Admin-friendly UI
+
+---
 
 ## Tech Stack
 
-- Frontend: HTML, CSS, JavaScript, Boostrap, SweetAlert, DataTables
-- Backend: Django, Python, Ajax, SQLite 
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap, SweetAlert, DataTables
+- **Backend**: Python, Django, SQLite
+- **Extras**: AJAX, jQuery, M-Pesa Daraja API
+
+---
 
 ## Installation
 
-### Prerequisites
-- [Python 3.x](https://www.python.org/downloads/)
-- [pip package manager](https://pip.pypa.io/en/stable/installation/)
+### ✅ Prerequisites
 
-  
-#### Browser Compatibility Notice: Firefox NOT Supported ‼
-#### Please Use Chrome or Edge Browsers ‼
-    
-  1. Clone or download the repository:
+- Python 3.11+ (recommended to use [pyenv](https://github.com/pyenv/pyenv))
+- pip (Python package manager)
 
-  ` git clone https://github.com/betofleitass/django_point_of_sale`
+> ⚠️ **Browser Compatibility**\
+> **ALL**
 
-  2. Go to the project directory
+---
 
-  ` cd django_point_of_sale`
+### 🔧 Setup Instructions
 
-  3. Create a virtual environment :
+1. **Clone the repository**
 
-  PowerShell:
-  ```
-   python -m venv venv
-   venv\Scripts\Activate.ps1
-  ```
-  
-  Linux:
-  ```
-  python3 -m venv venv
-  source venv/bin/activate
-  ```
+```bash
+git clone https://github.com/codetheuri/AgrovetPos.git
+cd AgrovetPos
+```
 
-  4. Install dependencies:  
-  ` pip install -r requirements.txt`
-  
-  5.  Update pip and setuptools  
-  ` python -m pip install --upgrade pip setuptools`  
-  
- 
-  
-## Run it locally
-After restarting your computer
+2. **Create and activate a virtual environment**
 
-1. Go to the project directory: `cd django_point_of_sale`
+**Linux/macOS:**
 
-2. Activate the virtual enviroment
-
-    
-    Linux:
-    ```
-    source venv/bin/activate
-    ```
-3. Go to the django_pos folder: `cd django_pos`
-
-4. Make database migrations:  
-  `python manage.py makemigrations` and 
-  `python manage.py migrate`
-
-5. Create superuser `python manage.py createsuperuser` 
-  
-   with the following data, or with the data you prefer:
-   `username: admin,
-    password: admin,
-    email: admin@admin`
-
-7. Run the server: `python manage.py runserver`
-
-8. Open a browser and go to: `http://127.0.0.1:8000/`
-
-9. Log In with your superuser credentials.
-    
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
 
 
+3. **Install dependencies**
 
-## Authors
+```bash
+pip install --upgrade pip setuptools
+pip install -r requirements.txt
+```
 
-- [@Theuri Joseph](https://www.github.com/codetheuri)
+---
 
-##  License
+## Run It Locally
 
-This project is under [MIT License.](https://choosealicense.com/licenses/mit/)
+1. Make sure you're in the project root directory:
 
-[Back to top ⬆️](#django-point-of-sale-pos-)
+```bash
+cd AgrovetPos
+source venv/bin/activate
+```
+
+2. Go to the Django project folder:
+
+```bash
+cd django_pos
+```
+
+3. Make database migrations:
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+4. Create a superuser:
+
+```bash
+python manage.py createsuperuser
+```
+
+> Use your preferred credentials or:
+>
+> - username: `admin`
+> - password: `admin`
+> - email: `admin@admin.com`
+
+5. Run the development server:
+
+```bash
+python manage.py runserver
+```
+
+6. Open your browser and go to:
+
+```
+http://127.0.0.1:8000/
+```
+
+7. Log in using your superuser credentials.
+
+---
+
+## Author
+
+- [@Theuri Joseph](https://github.com/codetheuri)
+
+---
+
+
+
+---
+
+[Back to top ⬆️](#django-point-of-sale-pos-for-agrovet-)
+
